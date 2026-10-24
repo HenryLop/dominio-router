@@ -1,0 +1,6 @@
+{"prompt": "Can I afford the spring trip?", "expect": ["money", "travel"]}
+{"prompt": "what is my rent this month", "expect": ["money"]}
+{"prompt": "book a hotel near the airport", "expect": ["travel"]}
+{"prompt": "log today's workout", "expect": ["fitness"]}
+{"prompt": "write a poem about autumn", "expect": []}
+{"prompt": "my sleep was bad and the flight is early", "expect": ["travel", "fitness"]}
