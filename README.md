@@ -31,6 +31,14 @@ Hook wiring (`settings.json`):
 {"hooks": {"UserPromptSubmit": [{"hooks": [{"type": "command", "command": "python router/hook.py"}]}]}}
 ```
 
+## Results
+
+Measured from the author's own use, numbers only, no prompt content. The author's router has 13 area files. Hook traces cover 23 to 25 Oct 2026, 89 sessions.
+
+- The prompt hook ran on 902 prompts. It injected context on 92 of them (10%); the other 810 got nothing added.
+- 45 of 478 session starts also received injected context (the resume point of open work).
+- Not measured: areas per prompt and stale flags, because the traces keep only a 300-character excerpt of each injection.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
